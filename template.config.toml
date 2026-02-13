@@ -1,0 +1,38 @@
+language = "typescript" # Must be typescript or python
+description = "Real-time aircraft transponder data, with a React frontend."
+post_install_print = """
+Deploy on Boreal
+
+The easiest way to deploy your MooseStack Applications is to use Boreal
+from the creators of MooseStack.
+
+https://boreal.cloud
+
+---------------------------------------------------------
+
+🫎 Initialize Moose project
+
+📂 Go to your moose project:
+    $ cd {project_dir}/moose
+
+📦 Install Dependencies:
+    $ npm install
+
+🛠️ Start dev server:
+    $ moose dev
+
+📺 Initialize frontend
+
+ℹ️ In another terminal: 
+📂 Go to your frontend project:
+    $ cd {project_dir}/frontend
+
+📦 Install Dependencies:
+    $ npm install
+
+🛠️ Start dev server:
+    $ npm run dev
+"""
+default_sloan_telemetry="comprehensive"
+
+visible=true
